@@ -15,5 +15,5 @@ class CfgPatches {
 
 /* CBA XEH */
 class Extended_PreInit_EventHandlers {
-    meineMod_preInit = "call compile preprocessFileLineNumbers '\PythiaMySQL\preInit.sqf'";
+    H2_pythiaSQL_preInit = "call compile preprocessFileLineNumbers '\PythiaMySQL\preInit.sqf'";
 };
