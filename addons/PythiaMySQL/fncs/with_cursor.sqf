@@ -28,7 +28,13 @@ params [
 	["_args", [], [[]]]
 ];
 
-private _cursor = _query call H2_PythiaMySQL_fnc_execute;
-private _ret = _args call _code;
-[_cursor] call H2_PythiaMySQL_fnc_close_cursor;
-_ret;
+try
+{
+	private _cursor = _query call H2_PythiaMySQL_fnc_execute;
+	private _ret = _args call _code;
+	[_cursor] call H2_PythiaMySQL_fnc_close_cursor;
+	_ret;
+} catch
+{
+	throw _exception;
+}
