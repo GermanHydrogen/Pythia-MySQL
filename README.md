@@ -1,5 +1,6 @@
 # Pythia-MySQL
 A simple MySQL connector for ArmA 3 build with Pythia. 
+Used and maintained by [Rosenrudel](https://discord.com/invite/ep8FcXT).
 
 ## Installation
 - Get the latest version of [Pythia](https://github.com/overfl0/Pythia/releases)
