@@ -18,7 +18,7 @@
 *			_code: Code to be executed on a successful query; can reference _cursor. [code]
 			_args: Arguments to the _code [list]
 *	Return Value:
-*			Error in case there was one or the return value of _code [string|any]
+*			The return value of _code [any]
 *
 */
 

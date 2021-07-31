@@ -8,7 +8,7 @@
 *		_token: Database cursor token [string]
 *
 * Return Value:
-*		[[list]]
+*		[[[any]]]
 */
 params['_token'];
 
